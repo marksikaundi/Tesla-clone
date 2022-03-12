@@ -8,16 +8,18 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
       <ItemText>
           <h1>{ title }</h1>
           <p>{ description }</p>
-      </ItemText>
+      </ItemText> 
       <Button>
       <ButtonGroup>
           <LeftButton>
               {leftBtnText}
           </LeftButton>
-
-          <RightButton>
+          { rightBtnText && 
+              <RightButton>
               {rightBtnText}
           </RightButton>
+          }
+          
       </ButtonGroup>
 
       <DownArrow src="/images/down-arrow.svg" />
