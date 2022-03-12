@@ -8,8 +8,23 @@
 
 body {
     width: 100%;
+    overflow-x: hidden;
 }
 
+/* animation codes */
+@keyframes animateDown {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translate(0);
+    }
+
+    40% {
+        transform: translate(5px);
+    }
+
+    60% {
+        transform: translate(3px);
+    }
+}
 
 
 
