@@ -33,6 +33,13 @@ function Home() {
         leftBtnText="Custom order"
         rightBtnText="Existing Inventory"
       />
+      <Section 
+        title="Lowest Cost Solar Panel in Africa"
+        description="Money-back guarantee"
+        backgroundImg="solar-panel.jpg"
+        leftBtnText="Order Now"
+        rightBtnText="Learn More"
+      />
     </Container>
   )
 }
