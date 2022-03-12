@@ -34,6 +34,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
 
 export default Section
 
+// wrapper
 const Wrap = styled.div`
   width: 100vw;
   height: 100vh;
@@ -60,7 +61,7 @@ const ButtonGroup = styled.div`
   }
 
 `
-
+// buttons
 const LeftButton = styled.div`
   background-color: rgba(23, 26, 32, 0.8);
   height: 40px;
@@ -76,6 +77,7 @@ const LeftButton = styled.div`
   cursor: pointer;
   margin: 8px;
 `
+// buttons
 const RightButton = styled(LeftButton)`
   background: white;
   opacity:v 0.65;
